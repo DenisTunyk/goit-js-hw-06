@@ -9,12 +9,6 @@ const ingredients = [
   'Condiments',
 ];
 
-// for (let i = 0; i < 10; i = +1){
-//   console.log(i);
-// }
-
-
-
 const ulElem = document.querySelector("#ingredients");
 
 // const prod = ingredients.map(item => `<li class="item">${item}</li>`).join("");
