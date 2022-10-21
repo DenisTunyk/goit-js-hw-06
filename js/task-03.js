@@ -19,6 +19,8 @@ const galleryUlElem = document.querySelector(".gallery");
 const prodRef = images.map(({ url, alt }) => `<li class="list"><img class="img" src="${url}" alt="${alt}"/></li>`).join("");
 galleryUlElem.insertAdjacentHTML('beforeEnd', prodRef);
 
+console.log(prodRef);
+
 // const arr = [];
 // for (let i = 0; i < images.length; i += 1){
 //   const li = document.createElement('li');
